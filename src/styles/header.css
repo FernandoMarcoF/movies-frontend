@@ -1,0 +1,35 @@
+.header {
+    background-color: #121212;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0.75rem 0;
+    z-index: 99;
+}
+.navbar{
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    margin: 0 auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar-link {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* .navbar-link:hover {
+    background-color: #555;
+} */

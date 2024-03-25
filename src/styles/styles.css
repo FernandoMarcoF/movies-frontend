@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('../fonts/TitilliumWeb-SemiBold.ttf');
+  font-display: swap;
+}
+
+/* Estilos para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Estilos para el botón de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  /* Color del botón de desplazamiento */
+  border-radius: 6px;
+}
+
+/* ::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+} */
+
+/* ::-webkit-scrollbar-thumb:hover {
+
+} */
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #333;
+}
+
+.movies-container {
+  padding-top: 64px;
+}
+
+.movies-container h1 {
+  padding-left: 86px;
+  padding-bottom: 16px;
+  color: white;
+}
+
+/* .container-content {} */
+
+.grid-container-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 16px;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  /* Opcional: añade un padding a los lados */
+}
+
+.card {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.link-card {
+  cursor: pointer;
+}
+
+.card-image {
+  background-size: cover;
+  background-Position: center;
+  height: 0;
+  padding-Top: 56.25%;
+}
